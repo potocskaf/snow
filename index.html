@@ -17,19 +17,20 @@
     c = c - 2; //8
     if (c === 9) {
         console.log('its nine!');
-    } else if (c === 1) {
+    }
+    else if (c === 1) {
         console.log('its one!');
-    } else {
-        console.log("it's not nine and its not one!"); //tested and ok
     }
-
-    if (a === '5') {
-        console.log("asd");
+    else if (c === 3) {
+        console.log('its three!'); //tested and ok
     }
-
-    //    while (c>0){
-    //
-    //    };
+    else {
+        console.log("i dont know!"); //tested and ok
+    }
+    while (c > 0) {
+        console.log(c);
+        c = c - 1;
+    }
     console.log(c);
 </script>
 </html>
