@@ -5,42 +5,31 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="jquery-3.1.1.min.js"></script>
+    <!--<script src="js/basics.js"></script>-->
 </head>
 <body>
 <h1>Let it snow</h1>
-<div id="snow-box"></div>
+<div id="snow-box">asd</div>
 </body>
 <script>
-    //    var a = '5';
-    //    var b = '5';
-    //    var c = Number(a) + Number(b); //10
-    //    c = c - 2; //8
-    //    if (c === 9) {
-    //        console.log('its nine!');
-    //    }
-    //    else if (c === 1) {
-    //        console.log('its one!');
-    //    }
-    //    else if (c === 3) {
-    //        console.log('its three!'); //tested and ok
-    //    }
-    //    else {
-    //        console.log("i dont know!"); //tested and ok
-    //    }
-    //    while (c > 0) {
-    //        console.log(c);
-    //        c = c - 1;
-    //    }
-    //
-    var count = 6;
-    while (count <= 12) {
-        console.log(count);
-        if (count === 9) {
-            console.log("its nine!");
-        }
-        count = count +3;
+    /*
+     jQuery
+     #asd selects <div id="asd">
+     .asd selects <p class="asd">
+     div selects <div>
+     */
+
+
+    function add(a, b) {
+        console.log('ADDING THESE TWO: ', a, b);
+        return a + b;
     }
 
-    //
+    var a = add(10,2);
+    console.log(a);
+
+    var snowBox = $('#snow-box');
+    snowBox.html(a);
+
 </script>
 </html>
