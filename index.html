@@ -14,16 +14,47 @@
 <body>
 <ul>
   <li><a href="#home">HOME</a></li>
-  <li><a href="#news">FICCEK</a></li>
-  <li><a href="#contact">RÓLUNK</a></li>
+  <li><a href="#ficcek">FICCEK</a></li>
+  <li><a href="#rólunk">RÓLUNK</a></li>
 </ul>
 <!-- Menu -->
 
-    <h1>Let it snow</h1>
-    <div id="snow-box">asd</div>
+<!-- Automatic Slideshow Images -->
 
+<div class="css-slideshow"> 
+  <figure> 
+    <img src="image1.jpg" width="495" height="370" /> 
+     <figcaption><strong>CSS3:</strong> CSS3 delivers a...</figcaption> 
+  </figure> 
+  <figure> 
+    <img src="image3.jpg" width="495" height="370" /> 
+    <figcaption><strong>Semantics:</strong> Giving meaning to...</figcaption> 
+  </figure> 
+  itt van
+</div>
+ 
+<!-- Automatic Slideshow Images -->
+
+<h1>Let it snow</h1>
+<div id="snow-box">asd</div>
+
+
+
+<article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie ultricies sem, ut pulvinar justo pellentesque dignissim. Ut tempus vulputate nisi, quis blandit enim ultricies nec. Curabitur eu magna tincidunt, laoreet sem non, auctor est. Suspendisse potenti. Curabitur felis sapien, tempus et mi ac, dictum luctus nisl. Nam rutrum mi velit, at consectetur risus bibendum id. Curabitur posuere gravida nunc, vel dapibus felis bibendum id. Nunc pellentesque sed felis in vestibulum.
+
+Sed sollicitudin ultricies sem ut sollicitudin. Ut sed sapien ligula. Nunc euismod ullamcorper libero, vel tempus lorem iaculis nec. Etiam tempor blandit accumsan. Nulla a fringilla urna. Nullam sit amet nisl non libero venenatis convallis a ut lacus. Nullam scelerisque leo vel nisl malesuada mollis. Aliquam erat volutpat. Phasellus imperdiet magna non libero tincidunt bibendum. Pellentesque suscipit, ex nec cursus convallis, tortor diam molestie mi, a venenatis augue tellus pretium ante. Ut at purus sed turpis viverra tempor. Praesent fringilla scelerisque mauris, ut posuere mi maximus et. Suspendisse laoreet nibh nibh, vel aliquet risus dignissim nec.</article>
+
+
+
+<!-- Footer -->
+
+<footer> © 2017 Copyright Text </footer>
+
+<!-- Footer -->
 
 </body>
+
+
 <script>
 /*
      jQuery
@@ -31,7 +62,6 @@
      .asd selects <p class="asd">
      div selects <div>
      */
-
 
 function add(a, b) {
     console.log('ADDING THESE TWO: ', a, b);
@@ -43,6 +73,25 @@ console.log(a);
 
 var snowBox = $('#snow-box');
 snowBox.html(a);
+
+
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+// Automatic Slideshow - change image every 4 seconds
+
 </script>
 
 </html>
