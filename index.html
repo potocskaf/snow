@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,13 +8,24 @@
     <script src="jquery-3.1.1.min.js"></script>
     <!--<script src="js/basics.js"></script>-->
 </head>
+
+
+<!-- Menu -->
 <body>
-    <div> Blalag</div>
-<h1>Let it snow</h1>
-<div id="snow-box">asd</div>
+<ul>
+  <li><a href="#home">HOME</a></li>
+  <li><a href="#news">FICCEK</a></li>
+  <li><a href="#contact">RÓLUNK</a></li>
+</ul>
+<!-- Menu -->
+
+    <h1>Let it snow</h1>
+    <div id="snow-box">asd</div>
+
+
 </body>
 <script>
-    /*
+/*
      jQuery
      #asd selects <div id="asd">
      .asd selects <p class="asd">
@@ -21,16 +33,16 @@
      */
 
 
-    function add(a, b) {
-        console.log('ADDING THESE TWO: ', a, b);
-        return a + b;
-    }
+function add(a, b) {
+    console.log('ADDING THESE TWO: ', a, b);
+    return a + b;
+}
 
-    var a = add(10,2);
-    console.log(a);
+var a = add(10, 2);
+console.log(a);
 
-    var snowBox = $('#snow-box');
-    snowBox.html(a);
-
+var snowBox = $('#snow-box');
+snowBox.html(a);
 </script>
+
 </html>
