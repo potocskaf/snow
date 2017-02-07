@@ -1,6 +1,7 @@
 html {
     position: relative;
     min-height: 100%;
+    font-family: "Raleway", sans-serif
 }
 
 body {
@@ -10,29 +11,19 @@ body {
     margin: 0 0 100px; /* bottom = footer height */
 }
 
-footer {
-    position: absolute;
-    margin: 0 auto 10px auto; 
-    text-align: left;
-    left: 0;
-    bottom: 0;
-    height: 90px;
-    width: 100%;
-    background: grey;
-    clear: both;
-}
-
-.mySlides {
-	display: none
-}
-
-ul {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    /*float: right;*/
 }
+
+footer {
+
+}
+
 
 li {
     float: left;
@@ -51,88 +42,60 @@ li a:hover {
 }
 
 article {
-	text-decoration: none;
- 	text-indent: 50px;
- 	font-size: 20px;
+    text-decoration: none;
+    text-indent: 50px;
+    font-size: 20px;
 }
 
 
 
-.css-slideshow{
-   position: relative;
-   max-width: 495px;
-   height: 370px;
-   margin: 5em auto .5em auto;
+/*SlideShow Text*/
+#container {
+    position: absolute;
+    z-index: 1000;
+    top: 80px;
+    left: 0;
 }
-.css-slideshow figure{
-   margin: 0;
-   position: absolute;
-}
-.css-slideshow figcaption{
-   position: absolute;
-   top: 0;
-   color: #fff;
-   background: rgba(0,0,0, .3);
-   font-size: .8em;
-   padding: 8px 12px;
-   opacity: 0;
-   transition: opacity .5s;
-}
-.css-slideshow:hover figure figcaption{
-   transition: opacity .5s;
-   opacity: 1;
-}
-.css-slideshow figure{
-   opacity:0;
-}
- 
-figure:nth-child(1) {
-   animation: xfade 48s 42s infinite;
-}
-figure:nth-child(2) {
-   animation: xfade 48s 36s infinite;
-}
-figure:nth-child(3) {
-   animation: xfade 48s 30s infinite;
-}
-figure:nth-child(4) {
-   animation: xfade 48s 24s infinite;
-}
-figure:nth-child(5) {
-   animation: xfade 48s 18s infinite;
-}
-figure:nth-child(6) {
-   animation: xfade 48s 12s infinite;
-}
-figure:nth-child(7) {
-   animation: xfade 48s 6s infinite;
-}
-figure:nth-child(8) {
-   animation: xfade 48s 0s infinite;
-}
- 
 
- @keyframes xfade{
-   0%{
-      opacity: 1;
-   }
-   10.5% {
-      opacity:1;
-   }
-   12.5%{
-      opacity: 0;
-   }
-   98% {
-      opacity:0;
-   }
-   100% {
-      opacity:1;
-   }
+#content {
+    position: relative;
+    width: 100%;
+    margin: 110px 0 0 40px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
 }
-  
 
-/* IE 6 */
-* html #footer {
-   position:absolute;
-   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+.content-text{
+    font-size: 60px;
+    color: whitesmoke;
 }
+
+.line {
+    background: black;
+}
+
+.floating-box {
+    float: left;
+    width: 25%;
+    height: 75px;
+}
+
+
+.floating-box div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*SlideShow Text*/
+
+/*SlideShow Css*/
+.mySlides {
+    width: 100%;
+}
+
+.button {
+
+}
+
+/*SlideShow Css*/
+
