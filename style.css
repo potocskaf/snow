@@ -1,5 +1,5 @@
 html {
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     position: relative;
 }
 
@@ -21,6 +21,13 @@ body {
     /*float: right;*/
 }
 
+h1 {
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: black;
+}
+
 li {
     float: left;
 }
@@ -31,10 +38,11 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #2e446c;
 }
 
 article {
@@ -106,16 +114,19 @@ article {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #5e5e5e; /* Green */
+    background-color: #2e446c;
     color: white;
     -webkit-box-shadow: 0px 7px 26px -8px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 7px 26px -8px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 7px 26px -8px rgba(0, 0, 0, 0.75);
+}
+.button:active {
+    background-color: #33527e;
 }
 
 .padding-bottom {
