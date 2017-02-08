@@ -1,5 +1,6 @@
 html {
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
+    position: relative;
 }
 
 body {
@@ -67,9 +68,10 @@ article {
     margin: 0 auto;
 }
 
-.content-text{
+.content-text {
     font-size: 60px;
     color: whitesmoke;
+    text-align: center;
 }
 
 .line {
@@ -78,7 +80,7 @@ article {
 
 .floating-box {
     display: inline-table;
-    width: 24%;
+    width: 19.5%;
     height: 75px;
     text-align: left;
 }
@@ -94,9 +96,10 @@ article {
 .mySlides {
     width: 100%;
 }
+/*SlideShow Css*/
 
 .button {
-    background-color: #464646;
+    background-color: #404040;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -104,17 +107,27 @@ article {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .button:hover {
     background-color: #5e5e5e; /* Green */
     color: white;
-    -webkit-box-shadow: 0px 7px 26px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 7px 26px -8px rgba(0,0,0,0.75);
-    box-shadow: 0px 7px 26px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 26px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 26px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 26px -8px rgba(0, 0, 0, 0.75);
+}
+
+.padding-bottom {
+    padding-bottom: 60px;
+}
+
+.padding-top{
+    padding-top: 60px;
 }
 
 
 
-/*SlideShow Css*/
+
+
 
