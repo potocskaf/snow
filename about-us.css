@@ -1,0 +1,27 @@
+.contact-us-image {
+    position: absolute;
+}
+
+.image-text {
+    margin-top: 55px;
+    position: relative;
+    font-size: 80px;
+    font-family: "Open Sans Regular", sans-serif;
+    text-align: center;
+}
+
+.random-quotes {
+    position:relative;
+    font-size: 20px;
+    font-family: "Open Sans Light", sans-serif;
+    text-align: center;
+}
+
+.image-box {
+    box-sizing: inherit;
+    color: inherit;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    position: absolute;
+
+}

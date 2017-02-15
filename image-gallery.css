@@ -45,3 +45,8 @@ div.desc {
     display: table;
     clear: both;
 }
+
+.gallery-background {
+    background: #e3e3e3;
+    position: relative;
+}
