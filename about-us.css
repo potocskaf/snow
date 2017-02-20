@@ -67,3 +67,19 @@
     text-align: justify;
     padding: 60px;
 }
+footer {
+    background: #363636;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height:70px;
+    width:100%;
+    padding-top: 10px;
+    margin-top: 60px;
+    top:102%;
+}
+
+.footer-div {
+    color: whitesmoke;
+    text-align: center;
+}
