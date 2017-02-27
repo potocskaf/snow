@@ -5,32 +5,31 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="jquery-3.1.1.min.js"></script>
     <!--<script src="js/basics.js"></script>-->
 </head>
 
-
-<!-- Menu -->
 <body>
-<ul class="nav">
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="ficcek.html">FICCEK</a></li>
-    <li><a href="gallery.html">GALLÉRIA</a></li>
-    <li><a href="about-us.html">RÓLUNK</a></li>
-</ul>
-<!-- Menu -->
 
-<!--Slide text-->
-<div id="container">
-    <div id="content">
-        <div class="content-text">ÜDVÖZÖLLEK AZ OLDALON</div>
-    </div>
+<!--Menu-->
+<div class="menu-container">
+    <i id="hamburger" class="fa fa-bars"></i>
+    <ul class="nav">
+        <li><a class="active" href="index.html">HOME</a></li>
+        <li><a href="ficcek.html">FICCEK</a></li>
+        <li><a href="gallery.html">GALLÉRIA</a></li>
+        <li><a href="about-us.html">RÓLUNK</a></li>
+    </ul>
 </div>
-<!--Slide text-->
-
+<!-- Menu -->
 
 <!-- Automatic Slideshow Images -->
-<div>
+
+<div class="slide-container">
+    <div id="content">
+        <div class="slide-text">ÜDVÖZÖLLEK AZ OLDALON</div>
+    </div>
     <img class="mySlides"
          src="http://deskbg.com/i/c/1280x800/wpp/0/483/rocky-mountain-national-park-desktop-background.jpg">
     <img class="mySlides" src="http://deskbg.com/i/c/1280x800/wpp/0/479/rocky-mountain-desktop-background.jpg">
@@ -78,6 +77,12 @@
 
 
 <script>
+    var hamburger = $('#hamburger');
+    var nav = $('.nav');
+    hamburger.click(function(){
+        nav.toggleClass('open');
+    });
+
     /*
      jQuery
      #asd selects <div id="asd">
@@ -115,7 +120,6 @@
         setTimeout(carousel, 10000);
     }
     // Automatic Slideshow
-
 </script>
 
 </body>
