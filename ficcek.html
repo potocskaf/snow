@@ -6,171 +6,191 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="jquery-3.1.1.min.js"></script>
+    <script src="js/init.js"></script>
 </head>
-<body style="margin-top: 80px;">
-<!--nav-->
-<ul class="nav" style="position: fixed; width: 100%">
-    <li><a href="index.html">HOME</a></li>
-    <li class="active"><a href="ficcek.html">FICCEK</a></li>
-    <li><a href="gallery.html">GALLÉRIA</a></li>
-    <li><a href="about-us.html">RÓLUNK</a></li>
-</ul>
-<!--nav-->
-
-<h1>FICCEK</h1>
-<!-- Fiction Selection -->
-<div>
-    <div class="padding-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </div>
-    <div class="list-content">
-        <div style="width: 100%">
-            <div class="floating-box">
-                <div>
-                    <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2214-500x333.jpg" alt="Ficc1"
-                         style="width:100%">
-                    <h3>FICC 1 LOREM IPSUM</h3>
-                    <h4> Besorolás: 17</h4>
-                    <h4> Kategória: Fantasy</h4>
-                    <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                        elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper
-                        tempus.</h5>
-                    <p>
-                        <input type="button" class="button" style="width: 100%"
-                               onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
-                    </p>
+<body>
+<!--Menu-->
+<div class="menu-container">
+    <i id="hamburger" class="fa fa-bars"></i>
+    <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a class="active" href="ficcek.html">FICCEK</a></li>
+        <li><a href="gallery.html">GALLÉRIA</a></li>
+        <li><a href="about-us.html">RÓLUNK</a></li>
+    </ul>
+</div>
+<!-- Menu -->
+<div class="top-container">
+    <h1>FICCEK</h1>
+    <!-- Fiction Selection -->
+    <div>
+        <div class="padding-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="list-content">
+            <div style="width: 100%">
+                <div class="floating-box">
+                    <div>
+                        <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2214-500x333.jpg"
+                             alt="Ficc1"
+                             style="width:100%">
+                        <h3>FICC 1 LOREM IPSUM</h3>
+                        <h4> Besorolás: 17</h4>
+                        <h4> Kategória: Fantasy</h4>
+                        <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt
+                            ullamcorper
+                            tempus.</h5>
+                        <p>
+                            <input type="button" class="button" style="width: 100%"
+                                   onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="floating-box">
-                <div>
-                    <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2214-500x333.jpg" alt="Ficc1"
-                         style="width:100%">
-                    <h3>FICC 2 ASDASD</h3>
-                    <h4> Besorolás: 17</h4>
-                    <h4> Kategória: Fantasy</h4>
-                    <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                        elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper
-                        tempus.</h5>
-                    <p>
-                        <input type="button" class="button" style="width: 100%"
-                               onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
-                    </p>
+                <div class="floating-box">
+                    <div>
+                        <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2214-500x333.jpg"
+                             alt="Ficc1"
+                             style="width:100%">
+                        <h3>FICC 2 ASDASD</h3>
+                        <h4> Besorolás: 17</h4>
+                        <h4> Kategória: Fantasy</h4>
+                        <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt
+                            ullamcorper
+                            tempus.</h5>
+                        <p>
+                            <input type="button" class="button" style="width: 100%"
+                                   onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="floating-box">
-                <div>
-                    <img src="http://farm4.static.flickr.com/3593/3503711051_747dd4b130.jpg" alt="Ficc2"
-                         style="width:100%">
-                    <h3>FICC 3 ASDASDDD</h3>
-                    <h4> Besorolás: 17</h4>
-                    <h4> Kategória: Fantasy</h4>
-                    <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                        elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper
-                        tempus.</h5>
-                    <p>
-                        <input type="button" class="button" style="width: 100%"
-                               onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
-                    </p>
+                <div class="floating-box">
+                    <div>
+                        <img src="http://farm4.static.flickr.com/3593/3503711051_747dd4b130.jpg" alt="Ficc2"
+                             style="width:100%">
+                        <h3>FICC 3 ASDASDDD</h3>
+                        <h4> Besorolás: 17</h4>
+                        <h4> Kategória: Fantasy</h4>
+                        <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt
+                            ullamcorper
+                            tempus.</h5>
+                        <p>
+                            <input type="button" class="button" style="width: 100%"
+                                   onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="floating-box">
-                <div>
-                    <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2270-500x333.jpg" alt="Ficc3"
-                         style="width:100%">
-                    <h3>FICC 3 ASDASDDAD</h3>
-                    <h4> Besorolás: 17</h4>
-                    <h4> Kategória: Fantasy</h4>
-                    <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                        elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper
-                        tempus.</h5>
-                    <p>
-                        <input type="button" class="button" style="width: 100%"
-                               onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
-                    </p>
+                <div class="floating-box">
+                    <div>
+                        <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2270-500x333.jpg"
+                             alt="Ficc3"
+                             style="width:100%">
+                        <h3>FICC 3 ASDASDDAD</h3>
+                        <h4> Besorolás: 17</h4>
+                        <h4> Kategória: Fantasy</h4>
+                        <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt
+                            ullamcorper
+                            tempus.</h5>
+                        <p>
+                            <input type="button" class="button" style="width: 100%"
+                                   onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="padding-bottom"></div>
+        <div class="padding-bottom"></div>
 
-    <div class="list-content">
-        <div style="width: 100%">
-            <div class="floating-box">
-                <div>
-                    <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2214-500x333.jpg" alt="Ficc1"
-                         style="width:100%">
-                    <h3>FICC 1 ASDASD</h3>
-                    <h4> Besorolás: 17</h4>
-                    <h4> Kategória: Fantasy</h4>
-                    <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                        elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper
-                        tempus.</h5>
-                    <p>
-                        <input type="button" class="button" style="width: 100%"
-                               onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
-                    </p>
+        <div class="list-content">
+            <div style="width: 100%">
+                <div class="floating-box">
+                    <div>
+                        <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2214-500x333.jpg"
+                             alt="Ficc1"
+                             style="width:100%">
+                        <h3>FICC 1 ASDASD</h3>
+                        <h4> Besorolás: 17</h4>
+                        <h4> Kategória: Fantasy</h4>
+                        <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt
+                            ullamcorper
+                            tempus.</h5>
+                        <p>
+                            <input type="button" class="button" style="width: 100%"
+                                   onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="floating-box">
-                <div>
-                    <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2214-500x333.jpg" alt="Ficc1"
-                         style="width:100%">
-                    <h3>FICC 1 ASDASD</h3>
-                    <h4> Besorolás: 17</h4>
-                    <h4> Kategória: Fantasy</h4>
-                    <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                        elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper
-                        tempus.</h5>
-                    <p>
-                        <input type="button" class="button" style="width: 100%"
-                               onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
-                    </p>
+                <div class="floating-box">
+                    <div>
+                        <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2214-500x333.jpg"
+                             alt="Ficc1"
+                             style="width:100%">
+                        <h3>FICC 1 ASDASD</h3>
+                        <h4> Besorolás: 17</h4>
+                        <h4> Kategória: Fantasy</h4>
+                        <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt
+                            ullamcorper
+                            tempus.</h5>
+                        <p>
+                            <input type="button" class="button" style="width: 100%"
+                                   onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="floating-box">
-                <div>
-                    <img src="http://farm4.static.flickr.com/3593/3503711051_747dd4b130.jpg" alt="Ficc2"
-                         style="width:100%">
-                    <h3>FICC 2 ASDASDDD</h3>
-                    <h4> Besorolás: 17</h4>
-                    <h4> Kategória: Fantasy</h4>
-                    <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                        elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper
-                        tempus.</h5>
-                    <p>
-                        <input type="button" class="button" style="width: 100%"
-                               onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
-                    </p>
+                <div class="floating-box">
+                    <div>
+                        <img src="http://farm4.static.flickr.com/3593/3503711051_747dd4b130.jpg" alt="Ficc2"
+                             style="width:100%">
+                        <h3>FICC 2 ASDASDDD</h3>
+                        <h4> Besorolás: 17</h4>
+                        <h4> Kategória: Fantasy</h4>
+                        <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt
+                            ullamcorper
+                            tempus.</h5>
+                        <p>
+                            <input type="button" class="button" style="width: 100%"
+                                   onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="floating-box">
-                <div>
-                    <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2270-500x333.jpg" alt="Ficc3"
-                         style="width:100%">
-                    <h3>FICC 3 ASDASDDAD</h3>
-                    <h4> Besorolás: 17</h4>
-                    <h4> Kategória: Fantasy</h4>
-                    <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                        elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper
-                        tempus.</h5>
-                    <p>
-                        <input type="button" class="button" style="width: 100%"
-                               onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
-                    </p>
+                <div class="floating-box">
+                    <div>
+                        <img src="http://www.holoweb.net/liam/pictures/2007-05-11-banff/img_2270-500x333.jpg"
+                             alt="Ficc3"
+                             style="width:100%">
+                        <h3>FICC 3 ASDASDDAD</h3>
+                        <h4> Besorolás: 17</h4>
+                        <h4> Kategória: Fantasy</h4>
+                        <h5>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
+                            elementum. Sed pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt
+                            ullamcorper
+                            tempus.</h5>
+                        <p>
+                            <input type="button" class="button" style="width: 100%"
+                                   onclick="location.href='firstficc-chapter-select.html';" value="OLVASÁS"/>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

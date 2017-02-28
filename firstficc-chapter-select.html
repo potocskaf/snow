@@ -4,72 +4,61 @@
     <meta charset="UTF-8">
     <title>Ficc 1</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="jquery-3.1.1.min.js"></script>
+    <script src="js/init.js"></script>
 </head>
-<body style="margin-top: 80px;">
+<body>
 
-<!--Navbar-->
-<ul class="nav" style="position: fixed; width: 100%">
-    <li><a href="index.html">HOME</a></li>
-    <li><a class="active" href="ficcek.html">FICCEK</a></li>
-    <li><a href="gallery.html">GALLÉRIA</a></li>
-    <li><a href="about-us.html">RÓLUNK</a></li>
-    <!--Navbar-->
-</ul>
-
-<h4 style="text-align: center">DESCRIPTION</h4>
-<h1>Lorem ipsum ficc name</h1>
-<div>
-    <div>Small fiction description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero nisi,
-        maximus
-        vel sem sit amet, interdum facilisis metus. Nullam risus eros, pellentesque nec metus ac, rhoncus euismod
-        lectus. Integer sed dignissim est. Proin vestibulum orci sit amet felis consectetur sodales. Nulla dapibus
-        facilisis nisi sit amet dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames acturpis egestas. Cras eleifend eget odio id feugiat. Fusce congue lacus vel fringilla fringilla. Sed
-        pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper tempus. Vivamus pharetra
-        placerat ipsum, id aliquam massa porttitor varius. Fusce imperdiet urna et turpis rutrum sodales. </div>
+<<!--Menu-->
+<div class="menu-container">
+    <i id="hamburger" class="fa fa-bars"></i>
+    <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a class="active" href="ficcek.html">FICCEK</a></li>
+        <li><a href="gallery.html">GALLÉRIA</a></li>
+        <li><a href="about-us.html">RÓLUNK</a></li>
+    </ul>
 </div>
-<div class="container">
-    <h3 style="text-align: center">FEJEZETEK</h3>
+<!-- Menu -->
+<div class="top-container">
+    <h4 style="text-align: center">DESCRIPTION</h4>
+    <h1>Lorem ipsum ficc name</h1>
+    <div class="box">
+        <div>Small fiction description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero nisi,
+            maximus
+            vel sem sit amet, interdum facilisis metus. Nullam risus eros, pellentesque nec metus ac, rhoncus euismod
+            lectus. Integer sed dignissim est. Proin vestibulum orci sit amet felis consectetur sodales. Nulla dapibus
+            facilisis nisi sit amet dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames acturpis egestas. Cras eleifend eget odio id feugiat. Fusce congue lacus vel fringilla fringilla. Sed
+            pretium ante quis sem commodo, at tempor nisl tempus. Proin tincidunt ullamcorper tempus. Vivamus pharetra
+            placerat ipsum, id aliquam massa porttitor varius. Fusce imperdiet urna et turpis rutrum sodales.
+        </div>
+    </div>
+    <div class="container">
+        <h3 style="text-align: center">FEJEZETEK</h3>
 
-    <!--Fejezetek-->
-    <p style="text-align: center">
-        <input type="button" class="button" style="width: 10%"
-               onclick="location.href='firstficc-first-chapter-read.html';"
-               value="1.FEJEZET"/>
-    </p>
+        <!--Fejezetek-->
+        <p style="text-align: center">
+            <input type="button" class="button"
+                   onclick="location.href='firstficc-first-chapter-read.html';"
+                   value="1.FEJEZET"/>
+        </p>
 
-    <p style="text-align: center">
-        <input type="button" class="button" style="width: 10%"
-               onclick="location.href='firstficc-first-chapter-read.html';"
-               value="2.FEJEZET"/>
-    </p>
+        <p style="text-align: center">
+            <input type="button" class="button"
+                   onclick="location.href='firstficc-first-chapter-read.html';"
+                   value="2.FEJEZET"/>
+        </p>
 
-    <p style="text-align: center">
-        <input type="button" class="button" style="width: 10%"
-               onclick="location.href='firstficc-first-chapter-read.html';"
-               value="3.FEJEZET"/>
-    </p>
-    <!--Fejezetej-->
+        <p style="text-align: center">
+            <input type="button" class="button"
+                   onclick="location.href='firstficc-first-chapter-read.html';"
+                   value="3.FEJEZET"/>
+        </p>
+        <!--Fejezetej-->
+    </div>
 </div>
-
-<!--&lt;!&ndash;Comment&ndash;&gt;-->
-<!--<form method='post'>-->
-    <!--NAME: <input type='text' name='name' id='name' /><br />-->
-
-    <!--Email: <input type='text' name='email' id='email' /><br />-->
-
-    <!--Website: <input type='text' name='website' id='website' /><br />-->
-
-    <!--Comment:<br />-->
-    <!--<textarea name='comment' id='comment'></textarea><br />-->
-
-    <!--<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />-->
-
-    <!--<input type='submit' value='Submit' />-->
-<!--</form>-->
-<!--&lt;!&ndash;Comment&ndash;&gt;-->
-
 
 </body>
 </html>

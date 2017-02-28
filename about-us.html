@@ -4,79 +4,94 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="about-us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="jquery-3.1.1.min.js"></script>
+    <script src="js/init.js"></script>
     <script type="text/javascript"></script>
     <title>Title</title>
 </head>
 <body>
 
-<!--Navbar-->
-<ul class="nav" style="width: 100%; position: fixed">
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="ficcek.html">FICCEK</a></li>
-    <li><a href="gallery.html">GALLÉRIA</a></li>
-    <li><a class="active" href="about-us.html">RÓLUNK</a></li>
-</ul>
-<!--Navbar-->
-<div>
-    <img class="contact-us-image"
-         src="images/contact-us-image.jpg">
+<!--Menu-->
+<div class="menu-container">
+    <i id="hamburger" class="fa fa-bars"></i>
+    <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="ficcek.html">FICCEK</a></li>
+        <li><a href="gallery.html">GALLÉRIA</a></li>
+        <li><a class="active" href="about-us.html">RÓLUNK</a></li>
+    </ul>
 </div>
+<!-- Menu -->
 
-<div class="image-text">HI! This is US!</div>
-<label class="random-quotes"></label>
-
-
-<!--Quotes-->
-<div class="random-quotes">
-    <script type="text/javascript">
-        quotes = [];
-        authors = [];
-        quotes[0] = "I love deadlines. I love the whooshing noise they make as they go by.";
-        authors[0] = "Douglas Adams";
-        quotes[1] = "If you don't have time to read, you don't have the time (or the tools) to write. Simple as that.";
-        authors[1] = "Stephen King";
-        quotes[2] = "You can't wait for inspiration. You have to go after it with a club.";
-        authors[2] = "Jack London";
-        quotes[3] = "So what? All writers are lunatics!";
-        authors[3] = "Cornelia Funke";
-        quotes[4] = "Easy reading is damn hard writing.";
-        authors[4] = "Nathaniel Hawthorne";
-        quotes[5] = "Learn the rules like a pro, so you can break them like an artist.";
-        authors[5] = "Pablo Picaso";
-
-        //random index szám kalkulálása
-        index = Math.floor(Math.random() * quotes.length);
-
-        //megejelíti midn a kettőt
-        document.write("<DL>\n");
-        document.write("<DT>" + "\"" + quotes[index] + "\"</DT>\n");
-        document.write("<DD>" + "-- " + authors[index] + "</DT>\n");
-        document.write("</DL>\n");
-        //done
-    </script>
-</div>
-
-<div class="about-container">
-    <div class="person-one">
-        <div class="about-main-title">LOREM IPSUM</div>
-        <div class="about-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam dolor.
-            In
-            hac habitasse platea dictumst. Curabitur ornare metus et aliquet suscipit. In hac habitasse platea dictumst.
-            Vivamus tortor arcu, dapibus in sollicitudin sit amet, sagittis sit amet nisl. Mauris vel dignissim lorem.
-            Fusce non quam auctor diam dignissim volutpat. Aliquam eleifend mi pharetra neque tincidunt, id tempor diam
-            molestie. Sed vulputate scelerisque tellus, sed laoreet libero lobortis a.
-        </div>
+<div class="top-container">
+    <div>
+        <img class="contact-us-image"
+             src="images/contact-us-image.jpg">
     </div>
 
-    <div class="person-two">
-        <div class="about-main-title">LOREM IPSUM</div>
-        <div class="about-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam dolor.
-            In hac habitasse platea dictumst. Curabitur ornare metus et aliquet suscipit. In hac habitasse platea
-            dictumst.
-            Vivamus tortor arcu, dapibus in sollicitudin sit amet, sagittis sit amet nisl. Mauris vel dignissim lorem.
-            Fusce non quam auctor diam dignissim volutpat. Aliquam eleifend mi pharetra neque tincidunt, id tempor diam
-            molestie. Sed vulputate scelerisque tellus, sed laoreet libero lobortis a.
+    <div class="image-text">HELLO! THIS IS US!</div>
+    <label class="random-quotes"></label>
+
+
+    <!--Quotes-->
+    <div class="random-quotes">
+        <script type="text/javascript">
+            quotes = [];
+            authors = [];
+            quotes[0] = "I love deadlines. I love the whooshing noise they make as they go by.";
+            authors[0] = "Douglas Adams";
+            quotes[1] = "If you don't have time to read, you don't have the time (or the tools) to write. Simple as that.";
+            authors[1] = "Stephen King";
+            quotes[2] = "You can't wait for inspiration. You have to go after it with a club.";
+            authors[2] = "Jack London";
+            quotes[3] = "So what? All writers are lunatics!";
+            authors[3] = "Cornelia Funke";
+            quotes[4] = "Easy reading is damn hard writing.";
+            authors[4] = "Nathaniel Hawthorne";
+            quotes[5] = "Learn the rules like a pro, so you can break them like an artist.";
+            authors[5] = "Pablo Picaso";
+
+            //random index szám kalkulálása
+            index = Math.floor(Math.random() * quotes.length);
+
+            //megejelíti midn a kettőt
+            document.write("<DL>\n");
+            document.write("<DT>" + "\"" + quotes[index] + "\"</DT>\n");
+            document.write("<DD>" + "-- " + authors[index] + "</DT>\n");
+            document.write("</DL>\n");
+            //done
+        </script>
+    </div>
+
+    <div class="about-container">
+        <div class="person-one">
+            <div class="about-main-title">LOREM IPSUM</div>
+            <div class="about-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam
+                dolor.
+                In
+                hac habitasse platea dictumst. Curabitur ornare metus et aliquet suscipit. In hac habitasse platea
+                dictumst.
+                Vivamus tortor arcu, dapibus in sollicitudin sit amet, sagittis sit amet nisl. Mauris vel dignissim
+                lorem.
+                Fusce non quam auctor diam dignissim volutpat. Aliquam eleifend mi pharetra neque tincidunt, id tempor
+                diam
+                molestie. Sed vulputate scelerisque tellus, sed laoreet libero lobortis a.
+            </div>
+        </div>
+
+        <div class="person-two">
+            <div class="about-main-title">LOREM IPSUM</div>
+            <div class="about-content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel diam
+                dolor.
+                In hac habitasse platea dictumst. Curabitur ornare metus et aliquet suscipit. In hac habitasse platea
+                dictumst.
+                Vivamus tortor arcu, dapibus in sollicitudin sit amet, sagittis sit amet nisl. Mauris vel dignissim
+                lorem.
+                Fusce non quam auctor diam dignissim volutpat. Aliquam eleifend mi pharetra neque tincidunt, id tempor
+                diam
+                molestie. Sed vulputate scelerisque tellus, sed laoreet libero lobortis a.
+            </div>
         </div>
     </div>
 </div>

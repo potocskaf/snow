@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="jquery-3.1.1.min.js"></script>
+    <script src="js/init.js"></script>
     <!--<script src="js/basics.js"></script>-->
 </head>
 
@@ -26,7 +27,7 @@
 
 <!-- Automatic Slideshow Images -->
 
-<div class="slide-container">
+<div class="top-container">
     <div id="content">
         <div class="slide-text">ÜDVÖZÖLLEK AZ OLDALON</div>
     </div>
@@ -77,31 +78,6 @@
 
 
 <script>
-    var hamburger = $('#hamburger');
-    var nav = $('.nav');
-    hamburger.click(function(){
-        nav.toggleClass('open');
-    });
-
-    /*
-     jQuery
-     #asd selects <div id="asd">
-     .asd selects <p class="asd">
-     div selects <div>
-     */
-
-    //function add(a, b) {
-    //    console.log('ADDING THESE TWO: ', a, b);
-    //    return a + b;
-    //}
-
-    //var a = add(10, 2);
-    //console.log(a);
-    //
-    //var snowBox = $('#snow-box');
-    //snowBox.html(a);
-
-
     // Automatic Slideshow
     var slideIndex = 0;
     carousel();
