@@ -393,6 +393,27 @@ footer {
 .fiction-select-box {
     text-align: center;
 }
+/*Input*/
+input[type=text] {
+    padding:8px;
+    border:1px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 0px;
+}
 
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:9px 21px;
+    background: #376595;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 0px;
+    color: white;
+}
+/*Input*/
 
 
