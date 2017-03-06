@@ -89,6 +89,10 @@ h6 {
 }
 
 @media screen and (max-width: 480px) {
+    .slide-text {
+        font-size: 30px !important;
+    }
+
     .nav {
         display: none;
     }
@@ -147,12 +151,6 @@ article {
     text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-    .slide-text {
-        font-size: 30px;
-    }
-}
-
 #content {
     position: absolute;
     margin: 10% 5% 0 5%;
@@ -205,9 +203,10 @@ article {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 16px;
     cursor: pointer;
     transition: all 0.5s;
+    font-family: "Open Sans Light", sans-serif;
 }
 
 .button:hover {
@@ -263,7 +262,9 @@ article {
     padding-top: 60px;
 }
 
-#chapter-container {
+.container {
+    float: left;
+    display: block;
 
 }
 
@@ -379,7 +380,19 @@ footer {
     }
 }
 
+.fiction-select {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-family: "Open Sans Light", sans-serif;
+}
 
+.fiction-select-box {
+    text-align: center;
+}
 
 
 
