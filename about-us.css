@@ -67,6 +67,8 @@
     text-align: justify;
     padding: 60px;
 }
+
+/*Footer*/
 footer {
     background: #363636;
     position:absolute;
@@ -83,3 +85,4 @@ footer {
     color: whitesmoke;
     text-align: center;
 }
+/*Footer*/
